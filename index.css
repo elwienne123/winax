@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fascinate+Inline');
+
+body
+{
+	margin:0;
+}
+
+.bg-image
+{
+	width:100%;
+	height:100vh;
+	background:url('bg.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:0;
+}
+.navbar
+{
+	width:100%;
+	height:8%;
+	background:#170909;
+	opacity: 1;
+	
+}
+.navbar .logo
+{
+	color:white;
+	font-family: 'Fascinate Inline', cursive;
+	font-family: 'Anton', sans-serif;
+	font-size:40px;
+	padding:5px;
+	margin-left: 10px;
+}
+.navbar ul
+{
+	float: right;
+	margin-right:10px;
+}
+.navbar ul li
+{
+   list-style: none;
+   float:left;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton|Fascinate+Inline|Roboto');
+.navbar ul li a
+{
+   list-style: none;
+   text-decoration: none;
+   color:white;
+   padding:15px;
+   font-size: 20px;
+   font-family: 'Anton', sans-serif;
+   font-family: 'Fascinate Inline', cursive;
+   font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a:hover
+{
+   list-style: none;
+   text-decoration: none;
+   color:white;
+   padding:15px;
+   font-size: 20px;
+   font-family: 'Anton', sans-serif;
+   font-family: 'Fascinate Inline', cursive;
+   font-family: 'Roboto', sans-serif;
+   background:#612b2b;
+}
+
+.form
+{
+	position: absolute;
+	left: 60%;
+	top: 20%;
+	width:30%;
+	height:70%;
+    background:#fbdcdc;
+    opacity:0.8;
+}
+.form ul
+{
+	float: letf;
+	margin-left: 20%
+	width:20;
+}
+
+.form ul li
+{
+	list-style: none;
+	float: left;
+}
+.form ul li a
+{
+	text-decoration: none;
+	color:white;
+	padding:10px;
+	background: none;
+}
+
+.form ul li .su
+{
+	text-decoration: none;
+	color:white;
+	padding:7px;
+	background: #229e22;
+	margin-left: 40px;
+}
+.form ul li .l
+{
+	text-decoration: none;
+	color:white;
+	padding:7px;
+	background: #2a69ad;
+	margin-left: 108px;
+}
+
+.lorem 
+{
+	position: absolute;
+   width:30%;
+   height:70%;
+   background: none;
+   overflow: hidden;
+   top: 20%;
+   left: 10%;
+}
+.lorem p
+{
+	color:white;
+	font-size: 24px;
+
+}
